@@ -1,29 +1,634 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="BANGTAN SONYEONDAN AND ARMY">
-    <meta name="author" content="BTS ARMY">
-    <meta name="keywords" content="BANGTAN SONYEONDAN, BTS, BTS Profile, BTS ARMY">
-    <meta name="viewports" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-    <title>BTS WORLD</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewports" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
 
-    <video autoplay loop controls id="frontvideo">
-        <source src="videos/BTSLOVESPH.mp4" type="video/mp4">
-    </video>
-    <div class="intro">
-        <h1>Welcome to BTS fanpage</h1>
-        <p>This page contains their photos and updates.</p>
-        <a href="mainPage.html"><button id="myBtn" onclick>Start</button></a>
-    </div>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <title>BTS</title>
+  </head>
+
+  <body class="body">
+
     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3 ">
+      <div class="container-fluid">
+        <a href="#" class="nav-item nav-link active"
+          ><img
+            src="images/logo.jpg"
+            class="rounded-circle"
+            alt="BTS LOGO"
+            width="50"
+            height="50"
+        /></a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-</body>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav  ">
+            <a href="#" class="nav-item nav-link active">HOME</a>
+            <a href="#" class="nav-item nav-link active">PAGE</a>
+            <a href="#" class="nav-item nav-link active">CONTACT</a>
+            <a href="#" class="nav-item nav-link active">ABOUT ME</a>
+          </div>
 
-<footer>
+          <div class="navbar-nav ml-auto">
+            <a href="#" class="nav-item nav-link active">SIGN UP</a>
+            <a href="#" class="nav-item nav-link active">LOG IN</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div>
+      <div class="intro my-element">
+        <h2>Welcome to BTS fanpage</h2>
+        <p>This page contains their photos and updates.</p>
+      </div>
+
+      <video autoplay muted loop id="frontvideo">
+        <source src="videos/BTSLOVESPH.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="container-fluid introduction">
+      <div class="row welcome text-center">
+        <div class="titleBTS">
+          <h1 class="display-4 title">Bangtan Sonyeondan</h1>
+          <hr color="white" />
+          <p id="seven">
+            A seven member South Korean boy group under BigHit Entertainment
+            that debuted June 13, 2013 on MCOUNTDOWN with the song “No More
+            Dream” followed by “We Are Bulletproof Pt. 2".
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carouselimages">
+      <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselCaptions" data-slide-to="4"></li>
+          <li data-target="#carouselCaptions" data-slide-to="5"></li>
+          <li data-target="#carouselCaptions" data-slide-to="6"></li>
+          <li data-target="#carouselCaptions" data-slide-to="7"></li>
+          <li data-target="#carouselCaptions" data-slide-to="8"></li>
+          <li data-target="#carouselCaptions" data-slide-to="9"></li>
+          <li data-target="#carouselCaptions" data-slide-to="10"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20200902_001153.jpg"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>BTS Are Unstoppable: Their Biggest Achievements in 2020</h3>
+              <p>
+                We’re only halfway through 2020, but for BTS, every day is a day
+                to break another record. From album sales to chart topping hits,
+                the group’s achievements know no bounds. With a roster of
+                boundary breaking pop hits and the support of their ARMY, their
+                success is guaranteed.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/gp3.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>No. 1 on the Billboard 200</h3>
+              <p>
+                Their studio album, “Map of the Soul: 7”, debuted at No. 1 on
+                the Billboard 200, making it their 4th consecutive album to do
+                so and them the only Korean act to achieve this feat..
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20200831_120107.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>No. 1 in iTunes history</h3>
+              <p>
+                In a clean sweep, BTS have officially become the group with the
+                most No. 1s in iTunes history. Their song ‘Black Swan’ has
+                reached No. 1 in 104 countries, and counting.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20200910_220148.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>No. 1 on the iTunes charts</h3>
+              <p>
+                BTS are the only group in history in which every member has
+                achieved a solo No. 1 on the iTunes charts.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20200919_114525.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>Stay Gold</h3>
+              <p>
+                BTS’ single ‘Stay Gold’ scored No. 1 on the Billboard Digital
+                Songs Sales Chart, earning them their 20th #1 on the chart,
+                making them the artists with the most #1s in chart history.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20200921_215153.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>BTS wears the crown for the biggest Spotify debut</h3>
+              <p>
+                Their song ‘Your Eyes Tell’ earned 876,000 streams within the
+                first few hours of release, with no tracking or playlisting.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20200914_124811.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>BEST SELLING ALBUM</h3>
+              <p>
+                Their album “Map of the Soul: 7” has sold over 4 million units
+                and counting, beating out The Weeknd’s “After Hours”.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20201003_132735.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>Solo artist with the most No. 1s in iTunes history</h3>
+              <p>
+                BTS’ V has officially become the solo artist with the most No.
+                1s in iTunes history, setting a new record for the group, while
+                also surpassing his own group’s feat.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20201003_132740.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>BTS have broken a 36 year long record</h3>
+              <p>
+                by Michael Jackson. With “Map of the Soul: 7”, they became the
+                only international artists to top the Japanese Oricon Music
+                Chart.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/1.jpg" alt="Second slide" />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>Unbeatable Presence</h3>
+              <p>
+                Their unbeatable presence on social media only continues to
+                extend. They currently hold the Billboard Top Social artist for
+                a record 186 weeks, equivalent to three years.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="images/IMG_20200915_012529.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block photoCaption">
+              <h3>Most Billboard Hot 100 entries</h3>
+              <p>
+                With their single ‘ON’ debuting in the Billboard Hot 100, they
+                have officially become the Korean act with the most Billboard
+                Hot 100 entries.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#carouselCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <img class="center" src="images/aboutBTS.png" alt="about" />
+      <div class="quoteupper">
+        <p>
+          “BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene”, is a
+          South Korean boyband that has been capturing the hearts of millions of
+          fans globally since their debut in June 2013. The members of BTS are
+          RM, Jin, SUGA, j-hope, Jimin, V and Jung Kook. Gaining recognition
+          from their authentic, self-produced music and top-notch performances
+          to the way they interact with their fans, the band has established
+          themselves as global superstars breaking countless world records.
+          While imparting a positive influence through activities such as the
+          LOVE MYSELF campaign and the UN ‘Speak Yourself’ speech, BTS has
+          mobilized millions of fans across the world (named ARMY), topped
+          prominent music charts, sold out worldwide tours including stadiums
+          and has been named as one of TIME 100: The Most Influential People of
+          2019. The band has also been recognized with numerous prestigious
+          awards like the Billboard Music Awards and American Music Awards.”
+        </p>
+        <br />
+        <br />
+        <p>— BTS'S PROFILE ON BTS.IBIGHIT.COM —</p>
+      </div>
+    </div>
+
+    <div class="row text-center members">
+      <div class="col-lg-4 col-sm-6 p-5">
+        <img
+          src="images/rm front.jpg"
+          class="rounded-circle"
+          alt="RM"
+          width="250"
+          height="250"
+        />
+        <h2>KIM NAMJOON</h2>
+        <p>Leader, Main Rapper</p>
+        <a
+          href="secret/rm about.html"
+          target="_blank"
+          class="btn btn-info btn-lrg"
+          >READ MORE</a
+        >
+      </div>
+      <div class="col-lg-4 col-sm-6 p-5">
+        <img
+          src="images/jin front.jpg"
+          class="rounded-circle"
+          alt="JIN"
+          width="250"
+          height="250"
+        />
+        <h2>KIM SEOKJIN</h2>
+        <p>Sub Vocalist, Visual</p>
+        <a
+          href="secret/jin about.html"
+          target="_blank"
+          class="btn btn-info btn-lrg"
+          >READ MORE</a
+        >
+      </div>
+      <div class="col-lg-4 col-sm-6 p-5">
+        <img
+          src="images/suga front.jpg"
+          class="rounded-circle"
+          alt="SUGA"
+          width="250"
+          height="250"
+        />
+        <h2>MIN YOONGI</h2>
+        <p>Lead Rapper</p>
+        <a
+          href="secret/suga about.html"
+          target="_blank"
+          class="btn btn-info btn-lrg"
+          >READ MORE</a
+        >
+      </div>
+      <div class="col-lg-4 col-sm-6 p-5">
+        <img
+          src="images/jhope front.jpg"
+          class="rounded-circle"
+          alt="JHOPE"
+          width="250"
+          height="250"
+        />
+        <h2>JUNG HOSEOK</h2>
+        <p>Main Dancer, Sub Rapper, Sub Vocalist</p>
+        <a
+          href="secret/jhope about.html"
+          target="_blank"
+          class="btn btn-info btn-lrg"
+          >READ MORE</a
+        >
+      </div>
+      <div class="col-lg-4 col-sm-6 p-5">
+        <img
+          src="images/jimin front.jpg"
+          class="rounded-circle"
+          alt="JIMIN"
+          width="250"
+          height="250"
+        />
+        <h2>PARK JIMIN</h2>
+        <p>Main Dancer, Lead Vocalist</p>
+        <a
+          href="secret/jimin about.html"
+          target="_blank"
+          class="btn btn-info btn-lrg"
+          >READ MORE</a
+        >
+      </div>
+      <div class="col-lg-4 col-sm-6 p-5">
+        <img
+          src="images/v front.jpg"
+          class="rounded-circle"
+          alt="V"
+          width="250"
+          height="250"
+        />
+        <h2>KIM TAEHYUNG</h2>
+        <p>Lead Dancer, Sub Vocalist, Visual</p>
+        <a
+          href="secret/v about.html"
+          target="_blank"
+          class="btn btn-info btn-lrg"
+          >READ MORE</a
+        >
+      </div>
+      <div class="col-lg-4 col-sm-6 p-5 center">
+        <img
+          src="images/jungkook front.jpg"
+          class="rounded-circle"
+          alt="JUNGKOOK"
+          width="250"
+          height="250"
+        />
+        <h2>JEON JUNGKOOK</h2>
+        <p>Main Vocalist, Lead Dancer, Sub Rapper, Center</p>
+        <a
+          href="secret/jungkook about.html"
+          target="_blank"
+          class="btn btn-info btn-lrg"
+          >READ MORE</a
+        >
+      </div>
+    </div>
+
+    <div class="parallax container"></div>
+    <div class="pquote"><p>B A N G T A N S O N Y E O N D A N</p></div>
+    <br /><br /><br /><br />
+
+    <div class="col-12">
+      <hr color="white" />
+      <hr color="white" />
+    </div>
+
+    <div>
+      <h1 id="headervideo">BTS: Tiny Desk (Home) Concert</h1>
+      <br />
+      <video id="frontvideoMain" controls>
+        <source
+          src="videos/BTS_ Tiny Desk (Home) Concert.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <p class="quote">
+        Sept. 21, 2020 | Stephen Thompson -- We've been trying to make a BTS
+        Tiny Desk concert happen for years now — even gaming out ways we might
+        move Bob Boilen's desk far enough forward to accommodate the superstar
+        Korean boy band's dance moves.<br /><br />
+        In the end, it took a global pandemic — and the launch of Tiny Desk
+        (home) concerts back in March — to make something happen. With BTS
+        cooped up in Seoul, the group held true to the series's spirit by
+        convening a live band for its Tiny Desk debut, and even arranged to
+        perform in a workspace with a music-friendly backdrop: the record store
+        VINYL & PLASTIC by Hyundai Card in BTS's hometown.<br /><br />
+        Opening with this summer's inescapable "Dynamite" — the group's first
+        single to hit No. 1 in the U.S., as well as its first song to be fully
+        recorded in English — BTS leaned hard into the new track's celebratory,
+        "Uptown Funk"-adjacent vibes. From there, the group dipped into its back
+        catalog, seizing on the opportunity to showcase its quieter side while
+        (mostly) staying uncharacteristically seated. The breezily propulsive
+        "Save ME," from 2016, ultimately gave way to a full-on power ballad in
+        2017's reflective "Spring Day."<br /><br />
+        The latter track seemed especially true to BTS's hopeful nature:
+        Introduced with a few optimistic words from rapper and singer RM ("It's
+        been the roughest summer ever, but we know that spring will come"), the
+        song reflects on a need to wait out hard times, even as the weight of
+        present-day pain feels oppressive. <br /><br />
+        BTS had intended to spend 2020 delighting the BTS Army in arenas around
+        the world, only to spend these last few months performing in isolation.
+        Released on the last day of a grim season, "Spring Day" provides a nice
+        reminder of what awaits us on the other side. We just have to get
+        through fall and winter first.
+      </p>
+    </div>
+
+    <div class="col-12">
+      <hr color="white" />
+      <hr color="white" />
+    </div>
+    <br /><br /><br /><br />
+
+    <div class="row text-center">
+      <div class="col-lg-6 col-sm-12 col-xs-12">
+        <img id="photo" src="images/BE.png" />
+      </div>
+      <div class="col-lg-5 col-sm-12 col-xs-12 beCaption">
+        <h1 id="beCaption">BE (DELUXE EDITION)</h1>
+        <p id="bebe">
+          BTS will be releasing their new album, “BE (Deluxe Edition)” on
+          November 20, 2020. This album is particularly special as it has direct
+          involvement from BTS not only in music but in concept, composition,
+          and design. All updates regarding comeback schedule will be here.
+        </p>
+        <p>
+          <a href="#" target="_blank" class="btn btn-info btn-xs btnbe"
+            >Read More</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <br /><br /><br />
+    <div class="container">
+      <h1 id="concept">CONCEPT PHOTO</h1>
+      <img id="photo" src="images/BEconceptphoto.jpg" alt="CONCEPT PHOTO" />
+    </div>
+    <br /><br /><br /><br />
+
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <h2 id="connect">Connect with them</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a
+            href="https://www.facebook.com/bangtan.official"
+            class="fa fa-facebook-official"
+          ></a>
+          <a href="https://twitter.com/BTS_twt/" class="fa fa-twitter"></a>
+          <a
+            href="https://www.instagram.com/bts.bighitofficial/"
+            class="fa fa-instagram"
+          ></a>
+          <a
+            href="https://www.youtube.com/user/BANGTANTV"
+            class="fa fa-youtube"
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <footer>
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <h5>Email:</h5>
+
+          <p>cyndi.marasigan@tup.edu.ph</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Facebook:</h5>
+
+          <p>Cyndi Marasigan</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Instagram:</h5>
+
+          <p>@cyndimarasigan</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Twitter:</h5>
+
+          <p>@cyndimarasigan</p>
+        </div>
+        <div class="col-12">
+          <hr class="light" color="white" />
+          <h5>&copy; bts.com</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>

@@ -1,411 +1,293 @@
-.body 
-{
+.body {
   background-color: #e66e9b;
-  background-position:center; 
-  
+}
+.parallax {
+  background-image: url("images/19.jpeg");
+  height: 700px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment:fixed;
-  padding-right: 80px;
-  padding-left: 0px;
-  font-family: 'Courier Prime', monospace; 
-  font-size: 70px; 
+
+  margin: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 4rem;
   color: white;
+
+  background-size: 100% auto;
+}
+.navbar {
+  width: 102%;
+}
+#seven {
+  font-size: 1.5rem;
+}
+
+.pquote {
   text-align: center;
-  max-width: 100%;
-  margin-left: 35px;
-  margin-right: auto;
-  top: 0;
-  
-  position: center;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
-.webcontainer
-{
-  width: 100%;
-  height: auto;
-}
-.articles
-{
-  width:90%; 
-  height: auto;
-  margin: auto;
-} 
 
-h1 { text-align: center; }
-h3 { text-align: center; }
-h2 { text-align: center; }
-p { text-align: center; }
-
-.navbar 
-{
-  overflow: hidden;
-  margin-left: -10px;
-  background-color:rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0;
-  width: 100%; 
-  height: 10%;
-  font-family: 'Abel', sans-serif;
-  font-family: 'Bebas Neue', cursive;
-  font-size: x-large;
-}
-#topheader{
-  position: fixed;
-  margin-left: 650px;
-  margin-right: auto;
-}
-.navbar a 
-{
-  float: left;
+.center {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleBTS {
+  margin: 3.5rem;
+  margin-bottom: -2rem;
+  margin-top: -0.8rem;
+}
+.title {
+  font-family: "Playfair Display", serif;
+}
+
+.jumbotron {
+  color: white;
+}
+.carouselimages {
+  padding: 5rem;
+}
+
+.introduction {
+  padding-top: 5rem;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+
+.quoteupper {
   color: white;
   text-align: center;
-  padding: 17px 18px;
-  text-decoration: none;
+  display: block;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  margin-block-start: 3em;
+  margin-block-end: 5em;
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+  font-size: 1.5rem;
 }
-.navbar a:hover 
-{
-  background: #ddd;
-  color: black;
-}
-.navigation-bar a:hover {
-  background: purple;
+
+.quote {
   color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  display: block;
+  text-align: center;
+  margin-block-start: -3em;
+  margin-block-end: 5em;
+  margin-inline-start: 106px;
+  margin-inline-end: 106px;
+  font-size: 1.4rem;
 }
 
-
-.main 
-{
-  margin-top: 30px;
-}
-#frontvideo 
-{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  max-height: fit-content;
-  max-width: fit-content;
-  background-color: black;
-  
-}
-.intro 
-{
-  position: fixed;
-  bottom: 0;
-  right: 1px;
-  text-indent: 5%;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+#frontvideoMain {
+  padding: 7rem;
   width: 100%;
-  padding: 20px;
-  font-family: 'Yeseva One', cursive;
+  height: auto;
+  outline: none;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook-official {
+  color: #3b5999;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-facebook-official:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+
+#headervideo {
+  margin-top: 10rem;
+  margin-bottom: -5rem;
+
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+  padding-top: 2rem;
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  width: 102%;
+}
+
+.beCaption {
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-size: 1.8rem;
+}
+#beCaption {
+  color: black;
+  text-shadow: 1px 1px 2px white;
+  margin: 2rem;
+}
+#concept {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px 4px white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 4rem;
+}
+#connect {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#photo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100%;
+  height: auto;
+}
+
+#bebe {
+  margin: 2rem;
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 1.7rem;
+}
+.btnbe {
+  margin: 2rem;
+}
+
+#frontvideo {
+  margin-top: -20px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #frontvideo {
+    width: 102%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #frontvideo {
+    width: 102%;
+    height: auto;
+  }
+}
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+.intro {
+  position: absolute;
+  margin-top: 18%;
+  left: 0;
+  right: 5px;
+  text-indent: 5%;
+  color: #f1f1f1;
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-family: "Playfair Display SC", serif;
   font-size: larger;
   max-width: 100%;
 }
+@media screen and (max-width: 600px) {
+  .intro {
+    font-size: 0;
+  }
+}
 
+.photoCaption {
+  background: rgba(0, 0, 0, 0.5);
+}
 
-#myBtn 
-{
-  
+#myBtn {
   width: 200px;
   font-size: 18px;
   padding: 10px;
   border: none;
-  background:#6922a0;
+  background: #6922a0;
   color: #fff;
   cursor: pointer;
   display: block;
   margin-left: 45%;
   border-radius: 300px;
 }
-#myBtn:hover 
-{
-  background:rgb(153, 113, 153);
-  color:white;
-}
-.frontCircle 
-{
-  width: 300px;
-  border-radius: 50%;
- }
-
-
-
-.header 
-{
-   
-  max-width: 1210px;
-  margin-left: 5%;
-  margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: -40px;
-  left: 0%;
-  top: 0%;
-  width: 100%;
-  height: 100%;
-  position: center;
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-  font-family: 'Prata', serif;
-  font-size: larger;
-}
-
-#headervideo
-{
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-  font-family: 'Prata', serif;
-  font-size: 30px;
-}
-
-.button 
-{
-  border: none;
-  color: #6922a0;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 300px;
-  border-top-left-radius: 300px;
-  border-top-right-radius: 300px;
-  border-bottom-right-radius: 300px;
-  border-bottom-left-radius: 300px;
-}
-.button1 
-{
- background-color: white; 
- color: #2e2e1f; 
- border: 2px solid #e66e9b;
- font-family: 'Balsamiq Sans', cursive;
-}
-.button1:hover {
- background-color:#e66e9b;
- color: white;
-}
-
-
-#quote 
-{
- display: block;
- margin-block-start: 3em;
- margin-block-end: 5em;
- margin-inline-start: 100px;
- margin-inline-end: 100px;
- font-size: 20px;
- font-family: 'Peddana', serif;
- font-family: 'Poppins', sans-serif;
-}
-
-.column 
-{
- float: left;
- width: 800px;
- padding: 0;
- display: table;
- box-sizing: border-box;
-}
-
-
-.row::after 
-{
- content: "";
- clear: both;
-}
-
-
-.icon-bar 
-{
-  position: fixed;
-  top: 0%;
-  right: 8px;
-  width: 5;
-   
-  
-}
-
-.icon-bar a {
-  display: inline-block;
-  text-align: center;
-  padding: 22px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 18px;
-  margin-left: -2px;
-  margin-right: -2px;
-}
-
-.icon-bar a:hover 
-{
-  background-color: #000;
-}
-.facebook 
-{
-  background: #3B5998;
+#myBtn:hover {
+  background: rgb(153, 113, 153);
   color: white;
 }
-.twitter 
-{
-  background: #55ACEE;
-  color: white;
-}
-.instagram 
-{
-  background: #dd4b39;
-  color: white;
-}
-.youtube 
-{
-  background: #bb0000;
-  color: white;
-}
-
 .members {
-background-color: rgba(0, 0, 0, 0.2);
-background-repeat: no-repeat;
-background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-family: "Quicksand", sans-serif;
 }
 
-#frontvideoMain
-{ 
-  width: 100%;
-  height: auto;
-
-  max-width: 1010px;
-  margin-left: 13%;
-  margin-right: auto;
-  left: -0.0432152%;
-  top: 0%;
-  position: center;
-}
-
-.column {
-  margin-left: 0%;
-  float: left;
-  width: 33.33%;
-  padding: 5px;
- 
-}
-
-.row::after
-{
-  content: "";
-  display:table;
- 
-}
-
-.center 
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  margin-top: 70px;
-  margin-bottom: -30px;
-}
-
-.rowpic { 
-  border: black;
-  border-width: 100%;
-   
-  height: 250px;
-  width: 250px;
-  margin-top: 20px;
-  margin-left: 100px;
-   
-  align-content: left;
-}
-
-#backgroundFacts
-{
-  background-image: url(images/cloudpurple.jpg);
-  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; 
-}
-
-.memberFacts
-{
-  line-height: 250%;
-  border-radius: 30px;
-  margin-left: 30%;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 64%;
-  padding: 20px;
-  text-align: center;
-  font-family: 'Happy Monkey', cursive;
-}
-
-.columnMembers 
-{
-  margin-left: -2%;
-  float: left;
-  width: 33.33%;
-  padding: 5px;  
-}
-
-#rmabout
-{
+#rmabout {
   background-image: url(images/rm.jpg);
   height: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-#jinabout
-{
+#jinabout {
   background-image: url(images/jin.jpg);
   height: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-#sugaabout
-{
+#sugaabout {
   background-image: url(images/suga.jpg);
   height: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-#jhopeabout
-{
+#jhopeabout {
   background-image: url(images/jhope.jpg);
   height: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-#jiminabout
-{
+#jiminabout {
   background-image: url(images/jimin.jpg);
   height: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-#vabout
-{
+#vabout {
   background-image: url(images/v.jpg);
   height: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-#jungkookabout
-{
+#jungkookabout {
   background-image: url(images/jk.jpg);
   height: 100%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-.rmabouts
-{
+.rmabouts {
   margin-top: 17%;
   border-radius: 30px;
   margin-left: 3%;
@@ -415,153 +297,5 @@ background-size: cover;
   width: 90%;
   padding: 20px;
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
-
-.cyndi
-{
-  background-image: url(images/cloud.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
-#me
-{
-  height: 424px;
-  width: 623px;
-  display: inline-block;
-  
-  position: absolute; right: 2%;
-  margin-top: -29%;
-   
-  padding: 8px;
-
-  background-image: url(images/cloud.jpg);
-  background-repeat: no-repeat;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.myfacts
-{
-  vertical-align: middle ;
-  line-height: 250%;
-  border-radius: 30px;
-  margin-left: 2%;
-  margin-top: 70px;
-  background: rgba(0, 0, 0, 0.1);
-  color: #f1f1f1;
-  width: 45%;
-  padding: 20px;
-
-  font-family: 'Patrick Hand', cursive;
-}
-
-.myname
-{
-  font-family: 'Courgette', cursive;
-}
-
-.aboutmeTitle
-{
-  
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  color: white;
-  font-family: 'Love Ya Like A Sister', cursive;
-  font-size: 80px;
-}
-
-#unicef
-{
-  margin-top: 50px;
-  padding: 50px;
-  font-family: 'Patrick Hand', cursive;
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.message {
-  text-align: center;
-  padding: 10px 20px;
-  font-family: 'Kaushan Script', cursive;
-  color: white;
-}
-
-* {
-  box-sizing: border-box;
-}
-.columnme {
-   
-  float: left;
-  margin-left: 5%;
-  padding: 5px;
-
-   
-  background-image: url(images/cloud.jpg);
-  background-repeat: no-repeat;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-.rowme::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.rowpictures {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.columnpictures {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.columnpictures img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .columnpictures {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .columnpictures {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
