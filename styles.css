@@ -1,6 +1,12 @@
-.body {
-  background-color: #e66e9b;
+body {
+  background-color: #e66e9b !important;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0%;
 }
+
 .parallax {
   background-image: url("images/19.jpeg");
   height: 700px;
@@ -17,7 +23,6 @@
   background-size: 100% auto;
 }
 .navbar {
-  width: 102%;
 }
 #seven {
   font-size: 1.5rem;
@@ -127,7 +132,6 @@ footer {
   padding-top: 2rem;
   background-color: #3f3f3f;
   color: #d5d5d5;
-  width: 102%;
 }
 
 .beCaption {
@@ -173,14 +177,22 @@ footer {
 }
 
 @media (min-aspect-ratio: 16/9) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   #frontvideo {
-    width: 102%;
+    width: 100%;
     height: auto;
   }
 }
 @media (max-aspect-ratio: 16/9) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   #frontvideo {
-    width: 102%;
+    width: 100%;
     height: auto;
   }
 }
@@ -207,6 +219,10 @@ footer {
   max-width: 100%;
 }
 @media screen and (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .intro {
     font-size: 0;
   }
